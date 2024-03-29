@@ -1,0 +1,60 @@
+:root{
+    /* Primitive tokens (Please don't try to divide by 2)*/
+
+    --size-1: 4px;
+    --size-2: 8px;
+    --size-3: 12px;
+    --size-4: 16px;
+    --size-5: 20px;
+    --size-6: 24px;
+    --size-7: 28px;
+    --size-8: 32px;
+    --size-9: 36px;
+    --size-10: 40px;
+
+    --red-0: #e2c6c6;
+    --red-500: #ff0000;
+    --red-900: #630303;
+
+    --blue-0: #c6cfe2;
+    --blue-500: #0059ff;
+    --blue-900: #031d63;
+
+    --yellow-0: #e2dfc6;
+    --yellow-500: #fbff00;
+    --yellow-900: #9e9e0a;
+
+    --gray-0: #b3b1a8;
+    --gray-500: #808077;
+    --gray-900: #363636;
+
+
+
+    /* Semantically op tokens */
+
+    --color-primary: var(--blue-500);
+    --color-secondary: var(--yellow-500);
+    --color-destructive: var(--red-500);
+    --color-gray: var(--gray-500);
+
+
+
+    /* Specific tokens go brrrrrr*/
+
+    --btn-padding-small: var(--size-2);
+    --btn-padding-medium: var(--size-3);
+    --btn-padding-large: var(--size-5);
+
+    --btn-text-size-small: var(--size-3);
+    --btn-text-size-medium: var(--size-4);
+    --btn-text-size-large: var(--size-5);
+
+    --btn-filled-surface-primary-default: var(--color-primary);
+    --btn-filled-surface-secondary-default: var(--color-secondary);
+    --btn-filled-surface-destructive-default: var(--color-destructive);
+    --btn-filled-surface-gray-default: var(--color-gray);
+    --btn-outline-border-primary-default: var(--color-primary);
+    --btn-outline-border-secondary-default: var(--color-primary);
+    --btn-outline-border-destructive-default: var(--color-primary);
+    --btn-outline-border-gray-default: var(--color-primary);
+}

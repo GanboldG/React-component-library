@@ -1,0 +1,66 @@
+@import '../../../src/global-styling/design-tokens.css';
+
+
+.btn-small{
+    font-size: var(--btn-text-size-small);
+    padding: var(--btn-padding-small);
+}
+
+.btn-medium{
+    font-size: var(--btn-text-size-medium);
+    padding: var(--btn-padding-medium);
+}
+
+.btn-large{
+    font-size: var(--btn-text-size-large);
+    padding: var(--btn-padding-large);
+}
+
+
+/* -------Variants------- */
+
+/* Filled */
+
+.btn-filled-primary{
+    background-color: var(--btn-filled-surface-primary-default);
+    border: 2px solid var(--btn-filled-surface-primary-default);
+}
+
+.btn-filled-secondary{
+    background-color: var(--btn-filled-surface-secondary-default);
+    border: 2px solid var(--btn-filled-surface-secondary-default);
+}
+
+.btn-filled-destructive{
+    background-color: var(--btn-filled-surface-destructive-default);
+    border: 2px solid var(--btn-filled-surface-destructive-default);
+}
+
+.btn-filled-gray{
+    background-color: var(--btn-filled-surface-gray-default);
+    border: 2px solid var(--btn-filled-surface-gray-default);
+}
+
+/* Outline */
+
+.btn-outline-primary{
+    border: 2px solid var(--btn-filled-surface-primary-default);
+}
+
+.btn-outline-secondary{
+    border: 2px solid var(--btn-filled-surface-secondary-default);
+}
+
+.btn-outline-destructive{
+    border: 2px solid var(--btn-filled-surface-destructive-default);
+}
+
+.btn-outline-gray{
+    border: 2px solid var(--btn-filled-surface-gray-default);
+}
+
+/* Text */
+
+.btn-text-primary, .btn-text-secondary, .btn-text-destructive, .btn-text-gray{
+    border: 2px solid transparent;
+}

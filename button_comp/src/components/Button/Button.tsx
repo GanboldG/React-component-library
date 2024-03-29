@@ -1,16 +1,17 @@
 import React from "react";
-import "./Button.css";
+import styles from "./Button.module.css";
 
-interface ButtonProps {
+export interface ButtonProps {
     label: string;
-    color: 'primary' | 'secondary' | 'destructive' | 'grey';
+    color: 'primary' | 'secondary' | 'destructive' | 'gray';
     size: 'small' | 'medium' | 'large';
+    variant: 'filled' | 'outline' | 'text';
 }
 
 const Button = (props: ButtonProps) => {
-    const {label, size, color} = props;
+    const {label, size, color, variant} = props;
 
-    return <button className={'button-' + size + ' button-' + color}>{label}</button>
+    return <button className={`${styles['btn-' + size]} ${styles['btn-' + variant + '-' + color]}`}>{label}</button>;
 };
 
 export default Button;
