@@ -6,12 +6,15 @@ export interface ButtonProps {
     color: 'primary' | 'secondary' | 'destructive' | 'gray';
     size: 'small' | 'medium' | 'large';
     variant: 'filled' | 'outline' | 'text';
+    state: 'default' | 'hovered' | 'focused' | 'pressed' | 'disabled';
 }
 
 const Button = (props: ButtonProps) => {
-    const {label, size, color, variant} = props;
+    const {label, size, color, variant, state} = props;
 
-    return <button className={`${styles['btn-' + size]} ${styles['btn-' + variant + '-' + color]}`}>{label}</button>;
+    return <button className={`${styles['btn-' + size]} 
+                               ${styles['btn-' + variant + '-' + color]}
+                               ${styles['btn-' + state + '-' + color]}`}>{label}</button>;
 };
 
 export default Button;

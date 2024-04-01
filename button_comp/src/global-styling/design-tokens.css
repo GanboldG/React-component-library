@@ -11,32 +11,81 @@
     --size-8: 32px;
     --size-9: 36px;
     --size-10: 40px;
+    --size-11: 44px;
+    --size-12: 48px;
 
     --red-0: #e2c6c6;
+    --red-100: #e0b2b2;
+    --red-200: #e2a1a1;
+    --red-300: #e27f7f;
+    --red-400: #e45353;
     --red-500: #ff0000;
+    --red-600: #c91010;
+    --red-700: #b10f0f;
+    --red-800: #860f0f;
     --red-900: #630303;
 
     --blue-0: #c6cfe2;
+    --blue-100: #b2b9d6;
+    --blue-200: #a1aad2;
+    --blue-300: #7f8ecb;
+    --blue-400: #5373c3;
     --blue-500: #0059ff;
+    --blue-600: #1047c9;
+    --blue-700: #0f3ea9;
+    --blue-800: #0f2e86;
     --blue-900: #031d63;
 
     --yellow-0: #e2dfc6;
+    --yellow-100: #e0ddb2;
+    --yellow-200: #e2daa1;
+    --yellow-300: #e2d77f;
+    --yellow-400: #e4d553;
     --yellow-500: #fbff00;
+    --yellow-600: #c9cc10;
+    --yellow-700: #a9ab0f;
+    --yellow-800: #86870f;
     --yellow-900: #9e9e0a;
 
-    --gray-0: #b3b1a8;
-    --gray-500: #808077;
-    --gray-900: #363636;
+    --gray-0: #f7f7f7;
+    --gray-100: #e0e0e0;
+    --gray-200: #c8c8c8;
+    --gray-300: #b1b1b1;
+    --gray-400: #999999;
+    --gray-500: #828282;
+    --gray-600: #6b6b6b;
+    --gray-700: #535353;
+    --gray-800: #3c3c3c;
+    --gray-900: #262626;
 
 
 
-    /* Semantically op tokens */
+    /* Semantically OP tokens */
 
     --color-primary: var(--blue-500);
     --color-secondary: var(--yellow-500);
     --color-destructive: var(--red-500);
     --color-gray: var(--gray-500);
 
+    --color-primary-hovered: var(--blue-600);
+    --color-primary-focused: var(--blue-700);
+    --color-primary-pressed: var(--blue-800);
+    --color-primary-disabled: var(--blue-900);
+
+    --color-secondary-hovered: var(--yellow-600);
+    --color-secondary-focused: var(--yellow-700);
+    --color-secondary-pressed: var(--yellow-800);
+    --color-secondary-disabled: var(--yellow-900);
+
+    --color-destructive-hovered: var(--red-600);
+    --color-destructive-focused: var(--red-700);
+    --color-destructive-pressed: var(--red-800);
+    --color-destructive-disabled: var(--red-900);
+
+    --color-gray-hovered: var(--gray-600);
+    --color-gray-focused: var(--gray-700);
+    --color-gray-pressed: var(--gray-800);
+    --color-gray-disabled: var(--gray-900);
 
 
     /* Specific tokens go brrrrrr*/
@@ -49,12 +98,63 @@
     --btn-text-size-medium: var(--size-4);
     --btn-text-size-large: var(--size-5);
 
-    --btn-filled-surface-primary-default: var(--color-primary);
-    --btn-filled-surface-secondary-default: var(--color-secondary);
-    --btn-filled-surface-destructive-default: var(--color-destructive);
-    --btn-filled-surface-gray-default: var(--color-gray);
-    --btn-outline-border-primary-default: var(--color-primary);
-    --btn-outline-border-secondary-default: var(--color-primary);
-    --btn-outline-border-destructive-default: var(--color-primary);
-    --btn-outline-border-gray-default: var(--color-primary);
+
+/* -------------Default-------------- */
+    --btn-filled-primary-default-surface: var(--color-primary);
+    --btn-filled-secondary-default-surface: var(--color-secondary);
+    --btn-filled-destructive-default-surface: var(--color-destructive);
+    --btn-filled-gray-default-surface: var(--color-gray);
+
+    --btn-outline-primary-default-border: var(--color-primary);
+    --btn-outline-secondary-default-border: var(--color-primary);
+    --btn-outline-destructive-default-border: var(--color-primary);
+    --btn-outline-gray-default-border: var(--color-primary);
+
+
+/* -------------Hovered-------------- */
+    --btn-filled-primary-hovered-surface: var(--color-primary-hovered);
+    --btn-filled-secondary-hovered-surface: var(--color-secondary-hovered);
+    --btn-filled-destructive-hovered-surface: var(--color-destructive-hovered);
+    --btn-filled-gray-hovered-surface: var(--color-gray-hovered);
+
+    --btn-outline-primary-hovered-border: var(--color-primary-hovered);
+    --btn-outline-secondary-hovered-border: var(--color-primary-hovered);
+    --btn-outline-destructive-hovered-border: var(--color-primary-hovered);
+    --btn-outline-gray-hovered-border: var(--color-primary-hovered);
+
+
+/* -------------Focused-------------- */
+    --btn-filled-primary-focused-surface: var(--color-primary-focused);
+    --btn-filled-secondary-focused-surface: var(--color-secondary-focused);
+    --btn-filled-destructive-focused-surface: var(--color-destructive-focused);
+    --btn-filled-gray-focused-surface: var(--color-gray-focused);
+
+    --btn-outline-primary-focused-border: var(--color-primary-focused);
+    --btn-outline-secondary-focused-border: var(--color-primary-focused);
+    --btn-outline-destructive-focused-border: var(--color-primary-focused);
+    --btn-outline-gray-focused-border: var(--color-primary-focused);
+
+
+/* -------------Pressed-------------- */
+    --btn-filled-primary-pressed-surface: var(--color-primary-pressed);
+    --btn-filled-secondary-pressed-surface: var(--color-secondary-pressed);
+    --btn-filled-destructive-pressed-surface: var(--color-destructive-pressed);
+    --btn-filled-gray-pressed-surface: var(--color-gray-pressed);
+
+    --btn-outline-primary-pressed-border: var(--color-primary-pressed);
+    --btn-outline-secondary-pressed-border: var(--color-primary-pressed);
+    --btn-outline-destructive-pressed-border: var(--color-primary-pressed);
+    --btn-outline-gray-pressed-border: var(--color-primary-pressed);
+
+
+/* -------------Pressed-------------- */
+    --btn-filled-primary-disabled-surface: var(--color-primary-disabled);
+    --btn-filled-secondary-disabled-surface: var(--color-secondary-disabled);
+    --btn-filled-destructive-disabled-surface: var(--color-destructive-disabled);
+    --btn-filled-gray-disabled-surface: var(--color-gray-disabled);
+
+    --btn-outline-primary-disabled-border: var(--color-primary-disabled);
+    --btn-outline-secondary-disabled-border: var(--color-primary-disabled);
+    --btn-outline-destructive-disabled-border: var(--color-primary-disabled);
+    --btn-outline-gray-disabled-border: var(--color-primary-disabled);
 }

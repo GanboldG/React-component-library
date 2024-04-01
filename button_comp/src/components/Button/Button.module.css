@@ -22,45 +22,55 @@
 /* Filled */
 
 .btn-filled-primary{
-    background-color: var(--btn-filled-surface-primary-default);
-    border: 2px solid var(--btn-filled-surface-primary-default);
+    background-color: var(--btn-filled-primary-default-surface);
+    border: 2px solid var(--btn-filled-primary-default-surface);
 }
 
 .btn-filled-secondary{
-    background-color: var(--btn-filled-surface-secondary-default);
-    border: 2px solid var(--btn-filled-surface-secondary-default);
+    background-color: var(--btn-filled-secondary-default-surface);
+    border: 2px solid var(--btn-filled-secondary-default-surface);
 }
 
 .btn-filled-destructive{
-    background-color: var(--btn-filled-surface-destructive-default);
-    border: 2px solid var(--btn-filled-surface-destructive-default);
+    background-color: var(--btn-filled-destructive-default-surface);
+    border: 2px solid var(--btn-filled-destructive-default-surface);
 }
 
 .btn-filled-gray{
-    background-color: var(--btn-filled-surface-gray-default);
-    border: 2px solid var(--btn-filled-surface-gray-default);
+    background-color: var(--btn-filled-gray-default-surface);
+    border: 2px solid var(--btn-filled-gray-default-surface);
 }
 
 /* Outline */
 
 .btn-outline-primary{
-    border: 2px solid var(--btn-filled-surface-primary-default);
+    border: 2px solid var(--btn-outline-primary-default-border);
+    background-color: transparent;
 }
 
 .btn-outline-secondary{
-    border: 2px solid var(--btn-filled-surface-secondary-default);
+    border: 2px solid var(--btn-outline-secondary-default-border);
+    background-color: transparent;
 }
 
 .btn-outline-destructive{
-    border: 2px solid var(--btn-filled-surface-destructive-default);
+    border: 2px solid var(--btn-outline-destructive-default-border);
+    background-color: transparent;
 }
 
 .btn-outline-gray{
-    border: 2px solid var(--btn-filled-surface-gray-default);
+    border: 2px solid var(--btn-outline-gray-default-border);
+    background-color: transparent;
 }
 
 /* Text */
 
 .btn-text-primary, .btn-text-secondary, .btn-text-destructive, .btn-text-gray{
     border: 2px solid transparent;
+    background-color: transparent;
+}
+
+/* ------- States ------- */
+.btn-default-primary{
+    
 }
