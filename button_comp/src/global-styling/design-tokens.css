@@ -67,94 +67,91 @@
     --color-destructive: var(--red-500);
     --color-gray: var(--gray-500);
 
-    --color-primary-hovered: var(--blue-600);
-    --color-primary-focused: var(--blue-700);
-    --color-primary-pressed: var(--blue-800);
+    --color-primary-hover: var(--blue-600);
+    --color-primary-focus: var(--blue-700);
+    --color-primary-press: var(--blue-800);
     --color-primary-disabled: var(--blue-900);
 
-    --color-secondary-hovered: var(--yellow-600);
-    --color-secondary-focused: var(--yellow-700);
-    --color-secondary-pressed: var(--yellow-800);
+    --color-secondary-hover: var(--yellow-600);
+    --color-secondary-focus: var(--yellow-700);
+    --color-secondary-press: var(--yellow-800);
     --color-secondary-disabled: var(--yellow-900);
 
-    --color-destructive-hovered: var(--red-600);
-    --color-destructive-focused: var(--red-700);
-    --color-destructive-pressed: var(--red-800);
+    --color-destructive-hover: var(--red-600);
+    --color-destructive-focus: var(--red-700);
+    --color-destructive-press: var(--red-800);
     --color-destructive-disabled: var(--red-900);
 
-    --color-gray-hovered: var(--gray-600);
-    --color-gray-focused: var(--gray-700);
-    --color-gray-pressed: var(--gray-800);
+    --color-gray-hover: var(--gray-600);
+    --color-gray-focus: var(--gray-700);
+    --color-gray-press: var(--gray-800);
     --color-gray-disabled: var(--gray-900);
 
 
     /* Specific tokens go brrrrrr*/
 
-    --btn-padding-small: var(--size-2);
-    --btn-padding-medium: var(--size-3);
-    --btn-padding-large: var(--size-5);
+    --btn-px-small: var(--size-2);
+    --btn-py-small: var(--size-2);
+    --btn-px-medium: var(--size-3);
+    --btn-py-medium: var(--size-3);
+    --btn-px-large: var(--size-5);
+    --btn-py-large: var(--size-5);
 
     --btn-text-size-small: var(--size-3);
     --btn-text-size-medium: var(--size-4);
     --btn-text-size-large: var(--size-5);
 
 
-/* -------------Default-------------- */
+/* -------------Filled-------------- */
     --btn-filled-primary-default-surface: var(--color-primary);
     --btn-filled-secondary-default-surface: var(--color-secondary);
     --btn-filled-destructive-default-surface: var(--color-destructive);
     --btn-filled-gray-default-surface: var(--color-gray);
 
-    --btn-outline-primary-default-border: var(--color-primary);
-    --btn-outline-secondary-default-border: var(--color-primary);
-    --btn-outline-destructive-default-border: var(--color-primary);
-    --btn-outline-gray-default-border: var(--color-primary);
+    --btn-filled-primary-hover-surface: var(--color-primary-hover);
+    --btn-filled-secondary-hover-surface: var(--color-secondary-hover);
+    --btn-filled-destructive-hover-surface: var(--color-destructive-hover);
+    --btn-filled-gray-hover-surface: var(--color-gray-hover);
 
+    --btn-filled-primary-focus-surface: var(--color-primary-focus);
+    --btn-filled-secondary-focus-surface: var(--color-secondary-focus);
+    --btn-filled-destructive-focus-surface: var(--color-destructive-focus);
+    --btn-filled-gray-focus-surface: var(--color-gray-focus);
 
-/* -------------Hovered-------------- */
-    --btn-filled-primary-hovered-surface: var(--color-primary-hovered);
-    --btn-filled-secondary-hovered-surface: var(--color-secondary-hovered);
-    --btn-filled-destructive-hovered-surface: var(--color-destructive-hovered);
-    --btn-filled-gray-hovered-surface: var(--color-gray-hovered);
+    --btn-filled-primary-press-surface: var(--color-primary-press);
+    --btn-filled-secondary-press-surface: var(--color-secondary-press);
+    --btn-filled-destructive-press-surface: var(--color-destructive-press);
+    --btn-filled-gray-press-surface: var(--color-gray-press);
 
-    --btn-outline-primary-hovered-border: var(--color-primary-hovered);
-    --btn-outline-secondary-hovered-border: var(--color-primary-hovered);
-    --btn-outline-destructive-hovered-border: var(--color-primary-hovered);
-    --btn-outline-gray-hovered-border: var(--color-primary-hovered);
-
-
-/* -------------Focused-------------- */
-    --btn-filled-primary-focused-surface: var(--color-primary-focused);
-    --btn-filled-secondary-focused-surface: var(--color-secondary-focused);
-    --btn-filled-destructive-focused-surface: var(--color-destructive-focused);
-    --btn-filled-gray-focused-surface: var(--color-gray-focused);
-
-    --btn-outline-primary-focused-border: var(--color-primary-focused);
-    --btn-outline-secondary-focused-border: var(--color-primary-focused);
-    --btn-outline-destructive-focused-border: var(--color-primary-focused);
-    --btn-outline-gray-focused-border: var(--color-primary-focused);
-
-
-/* -------------Pressed-------------- */
-    --btn-filled-primary-pressed-surface: var(--color-primary-pressed);
-    --btn-filled-secondary-pressed-surface: var(--color-secondary-pressed);
-    --btn-filled-destructive-pressed-surface: var(--color-destructive-pressed);
-    --btn-filled-gray-pressed-surface: var(--color-gray-pressed);
-
-    --btn-outline-primary-pressed-border: var(--color-primary-pressed);
-    --btn-outline-secondary-pressed-border: var(--color-primary-pressed);
-    --btn-outline-destructive-pressed-border: var(--color-primary-pressed);
-    --btn-outline-gray-pressed-border: var(--color-primary-pressed);
-
-
-/* -------------Pressed-------------- */
     --btn-filled-primary-disabled-surface: var(--color-primary-disabled);
     --btn-filled-secondary-disabled-surface: var(--color-secondary-disabled);
     --btn-filled-destructive-disabled-surface: var(--color-destructive-disabled);
     --btn-filled-gray-disabled-surface: var(--color-gray-disabled);
 
-    --btn-outline-primary-disabled-border: var(--color-primary-disabled);
-    --btn-outline-secondary-disabled-border: var(--color-primary-disabled);
-    --btn-outline-destructive-disabled-border: var(--color-primary-disabled);
-    --btn-outline-gray-disabled-border: var(--color-primary-disabled);
+
+/* -------------Outline-------------- */
+    --btn-outline-primary-default-surface: var(--color-primary);
+    --btn-outline-secondary-default-surface: var(--color-secondary);
+    --btn-outline-destructive-default-surface: var(--color-destructive);
+    --btn-outline-gray-default-surface: var(--color-gray);
+
+    --btn-outline-primary-hover-surface: var(--color-primary-hover);
+    --btn-outline-secondary-hover-surface: var(--color-secondary-hover);
+    --btn-outline-destructive-hover-surface: var(--color-destructive-hover);
+    --btn-outline-gray-hover-surface: var(--color-gray-hover);
+
+    --btn-outline-primary-focus-surface: var(--color-primary-focus);
+    --btn-outline-secondary-focus-surface: var(--color-secondary-focus);
+    --btn-outline-destructive-focus-surface: var(--color-destructive-focus);
+    --btn-outline-gray-focus-surface: var(--color-gray-focus);
+
+    --btn-outline-primary-press-surface: var(--color-primary-press);
+    --btn-outline-secondary-press-surface: var(--color-secondary-press);
+    --btn-outline-destructive-press-surface: var(--color-destructive-press);
+    --btn-outline-gray-press-surface: var(--color-gray-press);
+
+    --btn-outline-primary-disabled-surface: var(--color-primary-disabled);
+    --btn-outline-secondary-disabled-surface: var(--color-secondary-disabled);
+    --btn-outline-destructive-disabled-surface: var(--color-destructive-disabled);
+    --btn-outline-gray-disabled-surface: var(--color-gray-disabled);
 }
