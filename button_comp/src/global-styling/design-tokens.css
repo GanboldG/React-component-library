@@ -1,6 +1,7 @@
 :root{
     /* Primitive tokens (Please don't try to divide by 2)*/
 
+    /* Spacing */
     --size-1: 4px;
     --size-2: 8px;
     --size-3: 12px;
@@ -14,38 +15,60 @@
     --size-11: 44px;
     --size-12: 48px;
 
-    --red-0: #e2c6c6;
-    --red-100: #e0b2b2;
-    --red-200: #e2a1a1;
-    --red-300: #e27f7f;
-    --red-400: #e45353;
-    --red-500: #ff0000;
-    --red-600: #c91010;
-    --red-700: #b10f0f;
-    --red-800: #860f0f;
-    --red-900: #630303;
+    --radius-none: 0px;
+    --radius-base: 6px;
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-xl2: 16px;
+    --radius-xl3: 24px;
+    --radius-xl4: 32px;
+    --radius-full: 9999px;
 
-    --blue-0: #c6cfe2;
-    --blue-100: #b2b9d6;
-    --blue-200: #a1aad2;
-    --blue-300: #7f8ecb;
-    --blue-400: #5373c3;
-    --blue-500: #0059ff;
-    --blue-600: #1047c9;
-    --blue-700: #0f3ea9;
-    --blue-800: #0f2e86;
-    --blue-900: #031d63;
+    --fontsize-sm: 4px;
+    --fontsize-md: 8px;
+    --fontsize-lg: 12px;
+    --fontsize-xl: 16px;
+    --fontsize-xl2: 20px;
+    --fontsize-xl3: 24px;
 
-    --yellow-0: #e2dfc6;
-    --yellow-100: #e0ddb2;
-    --yellow-200: #e2daa1;
-    --yellow-300: #e2d77f;
-    --yellow-400: #e4d553;
-    --yellow-500: #fbff00;
-    --yellow-600: #c9cc10;
-    --yellow-700: #a9ab0f;
-    --yellow-800: #86870f;
-    --yellow-900: #9e9e0a;
+    /* Color */
+    --red-0: #fecaca;
+    --red-100: #fca5a5;
+    --red-200: #f87171;
+    --red-300: #ef4444;
+    --red-400: #dc2626;
+    --red-500: #b91c1c;
+    --red-600: #991b1b;
+    --red-700: #7f1d1d;
+    --red-800: #450a0a;
+    --red-900: #380808;
+
+    --blue-0: #fee2e2;
+    --blue-100: #eff6ff;
+    --blue-200: #dbeafe;
+    --blue-300: #bfdbfe;
+    --blue-400: #93c5fd;
+    --blue-500: #60a5fa;
+    --blue-600: #3b82f6;
+    --blue-700: #2563eb;
+    --blue-800: #1d4ed8;
+    --blue-900: #1e40af;
+    --blue-950: #172554;
+
+    --yellow-0: #fefce8;
+    --yellow-100: #fef9c3;
+    --yellow-200: #fef08a;
+    --yellow-300: #fde047;
+    --yellow-400: #facc15;
+    --yellow-500: #eab308;
+    --yellow-600: #d88816;
+    --yellow-700: #a16207;
+    --yellow-800: #854d0e;
+    --yellow-900: #713f12;
+    --yellow-950: #422006;
 
     --gray-0: #f7f7f7;
     --gray-100: #e0e0e0;
@@ -58,10 +81,37 @@
     --gray-800: #3c3c3c;
     --gray-900: #262626;
 
+    --green-0: #fef2f2;
+    --green-50: #f0fdf4;
+    --green-100: #dcfce7;
+    --green-200: #bbf7d0;
+    --green-300: #86efac;
+    --green-400: #4ade80;
+    --green-500: #22c55e;
+    --green-600: #16a34a;
+    --green-700: #15803d;
+    --green-800: #166534;
+    --green-900: #14532d;
+    --green-950: #052e16;
+
+    --purple-0: #faf5ff;
+    --purple-100: #f3e8ff;
+    --purple-200: #e9d5ff;
+    --purple-300: #d8b4fe;
+    --purple-400: #c084fc;
+    --purple-500: #a855f7;
+    --purple-600: #9333ea;
+    --purple-700: #7e22ce;
+    --purple-800: #6b21a8;
+    --purple-900: #581c87;
+    --purple-950: #3b0764;
+
+    --white: #fff;
+    --black: #000;
+    --transparent: #fff0;
 
 
     /* Semantically OP tokens */
-
     --color-primary: var(--blue-500);
     --color-secondary: var(--yellow-500);
     --color-destructive: var(--red-500);
@@ -90,6 +140,7 @@
 
     /* Specific tokens go brrrrrr*/
 
+    /* --------------------Buttons------------------- */
     --btn-px-small: var(--size-2);
     --btn-py-small: var(--size-2);
     --btn-px-medium: var(--size-3);
@@ -102,7 +153,6 @@
     --btn-text-size-large: var(--size-5);
 
 
-/* -------------Filled-------------- */
     --btn-filled-primary-default-surface: var(--color-primary);
     --btn-filled-secondary-default-surface: var(--color-secondary);
     --btn-filled-destructive-default-surface: var(--color-destructive);
@@ -128,8 +178,6 @@
     --btn-filled-destructive-disabled-surface: var(--color-destructive-disabled);
     --btn-filled-gray-disabled-surface: var(--color-gray-disabled);
 
-
-/* -------------Outline-------------- */
     --btn-outline-primary-default-surface: var(--color-primary);
     --btn-outline-secondary-default-surface: var(--color-secondary);
     --btn-outline-destructive-default-surface: var(--color-destructive);
@@ -154,4 +202,80 @@
     --btn-outline-secondary-disabled-surface: var(--color-secondary-disabled);
     --btn-outline-destructive-disabled-surface: var(--color-destructive-disabled);
     --btn-outline-gray-disabled-surface: var(--color-gray-disabled);
+
+/* -------------------------Badges-------------------------*/
+
+    --badge-px-small: var(--size-2);
+    --badge-px-medium: var(--size-3);
+    --badge-px-large: var(--size-4);
+    --badge-px-xl: var(--size-5);
+
+    --badge-py-small: var(--size-1);
+    --badge-py-medium: var(--size-2);
+    --badge-py-large: var(--size-3);
+    --badge-py-xl: var(--size-4);
+
+    --badge-radius-default: var(--radius-base);
+    --badge-radius-curved: var(--radius-full);
+
+    /* --badge-text-size-small: var(--size-5);
+    --badge-text-size-medium: var(--size-6);
+    --badge-text-size-large: var(--size-7);
+    --badge-text-size-xl: var(--size-8); */
+
+    --badge-light-text-primary: var(--gray-700);
+    --badge-light-text-secondary: var(--blue-400);
+    --badge-light-text-warning: var(--yellow-600);
+    --badge-light-text-destructive: var(--red-400);
+    --badge-light-text-success: var(--green-500);
+    --badge-light-text-orchid: var(--purple-400);
+
+    --badge-light-icon-primary: var(--gray-600);
+    --badge-light-icon-secondary: var(--blue-600);
+    --badge-light-icon-warning: var(--yellow-200);
+    --badge-light-icon-destructive: var(--red-300);
+    --badge-light-icon-success: var(--green-300);
+    --badge-light-icon-orchid: var(--purple-400);
+
+    --badge-light-surface-primary: var(--gray-0);
+    --badge-light-surface-secondary: var(--blue-0);
+    --badge-light-surface-warning: var(--yellow-0);
+    --badge-light-surface-destructive: var(--red-0);
+    --badge-light-surface-success: var(--green-0);
+    --badge-light-surface-orchid: var(--purple-0);
+
+    --badge-light-border-primary: var(--gray-100);
+    --badge-light-border-secondary: var(--blue-100);
+    --badge-light-border-warning: var(--yellow-100);
+    --badge-light-border-destructive: var(--red-0);
+    --badge-light-border-success: var(--green-100);
+    --badge-light-border-orchid: var(--purple-100);
+
+    --badge-dark-text-primary: var(--gray-400);
+    --badge-dark-text-secondary: var(--blue-400);
+    --badge-dark-text-warning: var(--yellow-600);
+    --badge-dark-text-destructive: var(--red-300);
+    --badge-dark-text-success: var(--green-300);
+    --badge-dark-text-orchid: var(--purple-400);
+
+    --badge-dark-icon-primary: var(--gray-400);
+    --badge-dark-icon-secondary: var(--blue-500);
+    --badge-dark-icon-warning: var(--yellow-500);
+    --badge-dark-icon-destructive: var(--red-400);
+    --badge-dark-icon-success: var(--green-300);
+    --badge-dark-icon-orchid: var(--purple-400);
+
+    --badge-dark-surface-primary: var(--gray-600);
+    --badge-dark-surface-secondary: var(--blue-700);
+    --badge-dark-surface-warning: var(--yellow-800);
+    --badge-dark-surface-destructive: var(--red-700);
+    --badge-dark-surface-success: var(--green-800);
+    --badge-dark-surface-orchid: var(--purple-800);
+
+    --badge-dark-border-primary: var(--gray-600);
+    --badge-dark-border-secondary: var(--blue-400);
+    --badge-dark-border-warning: var(--yellow-600);
+    --badge-dark-border-destructive: var(--red-400);
+    --badge-dark-border-success: var(--green-300);
+    --badge-dark-border-orchid: var(--purple-300);
 }

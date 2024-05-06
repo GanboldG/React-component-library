@@ -1,21 +1,21 @@
-import type { StorybookConfig } from "@storybook/react-webpack5";
+import type { StorybookConfig } from "@storybook/react-vite";
 
 const config: StorybookConfig = {
-  stories: ["../button_comp/src/**/*.mdx", "../button_comp/src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
+  stories: [
+    "../stories/**/*.mdx",
+    "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
+    "../button_comp/src/components/Badge/Badge.stories.tsx",
+    "../button_comp/src/components/Button/Button.stories.tsx",
+  ],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
-    "@storybook/preset-scss",
   ],
   framework: {
-    name: "@storybook/react-webpack5",
-    options: {
-      builder: {
-        useSWC: true,
-      },
-    },
+    name: "@storybook/react-vite",
+    options: {},
   },
   docs: {
     autodocs: "tag",

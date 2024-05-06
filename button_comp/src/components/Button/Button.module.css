@@ -1,7 +1,5 @@
 @import '../../../src/global-styling/design-tokens.css';
 
-
-
 .btn-small{
     font-size: var(--btn-text-size-small);
     padding-left: var(--btn-px-small);
