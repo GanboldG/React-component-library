@@ -3,7 +3,7 @@ import {StoryFn, Meta} from "@storybook/react";
 import Badge from './Badge';
 
 export default {
-    title: "ReactComponentLibrary/Button",
+    title: "ReactComponentLibrary/Badge",
     component: Badge,
 } as Meta<typeof Badge>;
 
@@ -11,9 +11,9 @@ const Template1: StoryFn<typeof Badge> = (args) => <Badge {...args} />;
 
 export const Badger = Template1.bind({});
 Badger.args = {
-    label: "Hello world!",
-    constrast: "light",
+    label: "This is a badge, trust me",
+    constrast: "dark",
     size: "large",
-    color: "primary",
+    color: "success",
     radius: "default",
 };

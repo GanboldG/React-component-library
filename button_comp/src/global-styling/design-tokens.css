@@ -1,4 +1,10 @@
 :root{
+    /* Don't mind me */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0;
+    font-size: 20px;
+
+
     /* Primitive tokens (Please don't try to divide by 2)*/
 
     /* Spacing */
@@ -254,9 +260,9 @@
     --badge-dark-text-primary: var(--gray-400);
     --badge-dark-text-secondary: var(--blue-400);
     --badge-dark-text-warning: var(--yellow-600);
-    --badge-dark-text-destructive: var(--red-300);
+    --badge-dark-text-destructive: var(--red-200);
     --badge-dark-text-success: var(--green-300);
-    --badge-dark-text-orchid: var(--purple-400);
+    --badge-dark-text-orchid: var(--purple-300);
 
     --badge-dark-icon-primary: var(--gray-400);
     --badge-dark-icon-secondary: var(--blue-500);
@@ -268,14 +274,32 @@
     --badge-dark-surface-primary: var(--gray-600);
     --badge-dark-surface-secondary: var(--blue-700);
     --badge-dark-surface-warning: var(--yellow-800);
-    --badge-dark-surface-destructive: var(--red-700);
-    --badge-dark-surface-success: var(--green-800);
-    --badge-dark-surface-orchid: var(--purple-800);
+    --badge-dark-surface-destructive: var(--red-900);
+    --badge-dark-surface-success: var(--green-950);
+    --badge-dark-surface-orchid: var(--purple-950);
 
     --badge-dark-border-primary: var(--gray-600);
     --badge-dark-border-secondary: var(--blue-400);
-    --badge-dark-border-warning: var(--yellow-600);
-    --badge-dark-border-destructive: var(--red-400);
-    --badge-dark-border-success: var(--green-300);
-    --badge-dark-border-orchid: var(--purple-300);
+    --badge-dark-border-warning: var(--yellow-700);
+    --badge-dark-border-destructive: var(--red-300);
+    --badge-dark-border-success: var(--green-900);
+    --badge-dark-border-orchid: var(--purple-500);
+
+    /* Statusing and badging */
+    --statusbadge-radius-default: var(--radius-base);
+
+    --statusbadge-light-surface: var(--gray-0);
+    --statusbadge-light-text: var(--gray-600);
+    --statusbadge-light-border: var(--gray-0);
+
+    --statusbadge-dark-surface: var(--gray-800);
+    --statusbadge-dark-text: var(--gray-500);
+    --statusbadge-dark-border: var(--gray-700);
+    
+    --statusbadge-icon-primary: var(--gray-600);
+    --statusbadge-icon-secondary: var(--blue-600);
+    --statusbadge-icon-warning: var(--yellow-400);
+    --statusbadge-icon-destructive: var(--red-500);
+    --statusbadge-icon-success: var(--green-500);
+    --statusbadge-icon-orchid: var(--purple-700);
 }

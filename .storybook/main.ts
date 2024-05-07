@@ -6,6 +6,7 @@ const config: StorybookConfig = {
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
     "../button_comp/src/components/Badge/Badge.stories.tsx",
     "../button_comp/src/components/Button/Button.stories.tsx",
+    "../button_comp/src/components/StatusBadge/StatusBadge.stories.tsx",
   ],
   addons: [
     "@storybook/addon-links",
